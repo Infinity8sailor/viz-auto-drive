@@ -55,6 +55,7 @@ const exampleLog = require(__IS_STREAMING__
   : __IS_LIVE__
     ? './log-from-live'
     : './log-from-file').default;
+  
 
 class Example extends PureComponent {
   state = {
